@@ -1,0 +1,33 @@
+2025-03-31 21:54:11,639 - INFO - Database initialized.
+2025-03-31 21:54:22,389 - ERROR - Program failed: Error binding parameter 3: type 'Series' is not supported
+2025-03-31 21:56:40,933 - INFO - Database initialized.
+2025-03-31 21:56:45,066 - INFO - Loaded historical data for TSLA from 2020-01-01 to 2025-03-31.
+2025-03-31 21:56:45,096 - INFO - Prepared 1208 sequences with 60 timesteps and 5 features.
+2025-03-31 21:58:31,922 - INFO - Model MAE: 14.75
+2025-03-31 22:10:45,111 - INFO - Database initialized.
+2025-03-31 22:10:45,112 - INFO - Data for TSLA already exists in database.
+2025-03-31 22:10:45,158 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
+2025-03-31 22:24:18,369 - INFO - Test set MAE: 23.87
+2025-04-01 00:06:55,947 - INFO - Database initialized.
+2025-04-01 00:06:55,948 - INFO - Data for TSLA already exists in database.
+2025-04-01 00:06:55,996 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
+2025-04-01 00:14:06,077 - INFO - Database initialized.
+2025-04-01 00:14:06,078 - INFO - Data for TSLA already exists in database.
+2025-04-01 00:14:06,113 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
+2025-04-01 00:30:30,215 - INFO - Test set MAE: 29.56
+2025-04-01 00:40:38,339 - INFO - Database initialized.
+2025-04-01 00:40:38,339 - INFO - Data for TSLA already exists in database.
+2025-04-01 00:40:38,376 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
+2025-04-01 00:41:17,635 - INFO - Test set MAE: 24.28
+2025-04-01 00:41:18,187 - INFO - Starting next-day prediction...
+2025-04-01 00:41:18,279 - INFO - Next-day prediction completed: $242.16
+2025-04-01 00:47:35,633 - INFO - Database initialized.
+2025-04-01 00:47:35,634 - INFO - Data for TSLA already exists in database.
+2025-04-01 00:47:35,669 - INFO - Prepared 1238 sequences with 30 timesteps and 10 features.
+2025-04-01 00:49:00,619 - INFO - Test set MAE: 19.06
+2025-04-01 00:49:01,565 - INFO - Starting next-day prediction...
+2025-04-01 00:49:01,664 - INFO - Next-day prediction completed: $258.31
+2025-04-01 00:50:15,619 - INFO - Database initialized.
+2025-04-01 00:50:15,620 - INFO - Data for TSLA already exists in database.
+2025-04-01 00:50:15,666 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
+2025-04-01 01:17:08,711 - INFO - Test set MAE: 26.25
