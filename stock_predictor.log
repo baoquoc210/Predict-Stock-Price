@@ -35,3 +35,72 @@
 2025-04-01 01:36:32,211 - INFO - Data for TSLA already exists in database.
 2025-04-01 01:36:32,253 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
 2025-04-01 01:58:25,797 - INFO - Test set MAE: 17.97
+2025-04-01 09:48:19,669 - INFO - Database initialized.
+2025-04-01 09:48:19,671 - INFO - Data for TSLA already exists in database.
+2025-04-01 09:48:19,729 - INFO - Prepared 1208 sequences with 60 timesteps and 9 features.
+2025-04-01 09:57:27,017 - INFO - Test set MAE: 19.69
+2025-04-01 10:39:31,895 - INFO - Database initialized.
+2025-04-01 10:39:31,897 - INFO - Data for TSLA already exists in database.
+2025-04-01 10:39:31,898 - ERROR - Program failed: Execution failed on sql 'SELECT date, open, high, low, close, volume FROM prices WHERE symbol = 'TSLA' ORDER BY date': no such column: open
+2025-04-01 10:44:45,902 - INFO - Added 'open' column to prices table.
+2025-04-01 10:44:45,906 - INFO - Added 'high' column to prices table.
+2025-04-01 10:44:45,911 - INFO - Added 'low' column to prices table.
+2025-04-01 10:44:45,911 - INFO - Database initialized or migrated successfully.
+2025-04-01 10:44:54,605 - INFO - Loaded historical data for TSLA from 2020-01-01 to 2025-03-31.
+2025-04-01 10:44:54,650 - INFO - Prepared 1238 sequences with 30 timesteps and 12 features.
+2025-04-01 10:47:56,028 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-01 10:47:56,210 - INFO - Model saved to stock_predictor_model.h5
+2025-04-01 10:47:56,678 - INFO - Test set MAE: 56.35, RMSE: 70.80, MAPE: 22.34%
+2025-04-01 10:47:57,606 - INFO - Starting next-day prediction...
+2025-04-01 10:47:57,777 - INFO - Next-day prediction completed: $235.51
+2025-04-01 10:49:31,933 - INFO - Database initialized or migrated successfully.
+2025-04-01 10:49:31,936 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 10:49:32,005 - INFO - Prepared 1238 sequences with 30 timesteps and 12 features.
+2025-04-01 10:49:32,007 - INFO - Loading existing model from stock_predictor_model.h5
+2025-04-01 10:49:32,763 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-01 10:49:36,684 - INFO - Test set MAE: 47.56, RMSE: 62.68, MAPE: 19.28%
+2025-04-01 10:49:37,308 - INFO - Starting next-day prediction...
+2025-04-01 10:49:37,453 - INFO - Next-day prediction completed: $240.60
+2025-04-01 10:51:08,231 - INFO - Database initialized or migrated successfully.
+2025-04-01 10:51:08,232 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 10:51:08,293 - INFO - Prepared 1238 sequences with 30 timesteps and 12 features.
+2025-04-01 10:51:08,294 - INFO - Loading existing model from stock_predictor_model.h5
+2025-04-01 10:51:08,952 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-01 10:51:14,302 - INFO - Test set MAE: 51.33, RMSE: 68.43, MAPE: 19.17%
+2025-04-01 10:51:14,909 - INFO - Starting next-day prediction...
+2025-04-01 10:51:15,016 - INFO - Next-day prediction completed: $247.71
+2025-04-01 10:59:15,057 - INFO - Database initialized or migrated successfully.
+2025-04-01 10:59:15,058 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 10:59:15,115 - INFO - Prepared 1238 sequences with 30 timesteps and 12 features.
+2025-04-01 11:02:15,931 - INFO - Model saved to stock_predictor_model.keras
+2025-04-01 11:02:16,662 - INFO - Test set MAE: 44.97, RMSE: 53.13, MAPE: 17.49%
+2025-04-01 11:02:18,639 - INFO - Starting next-day prediction...
+2025-04-01 11:02:18,894 - INFO - Next-day prediction completed: $305.79
+2025-04-01 11:03:27,608 - INFO - Database initialized or migrated successfully.
+2025-04-01 11:03:27,609 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 11:03:27,663 - INFO - Prepared 1238 sequences with 30 timesteps and 12 features.
+2025-04-01 11:03:27,663 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-01 11:03:33,911 - INFO - Test set MAE: 44.14, RMSE: 52.27, MAPE: 17.04%
+2025-04-01 11:03:34,541 - INFO - Starting next-day prediction...
+2025-04-01 11:03:34,647 - INFO - Next-day prediction completed: $305.93
+2025-04-01 11:08:23,583 - INFO - Database initialized or migrated successfully.
+2025-04-01 11:08:23,584 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 11:08:23,668 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-01 11:08:23,669 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-01 11:08:25,073 - ERROR - Program failed: Exception encountered when calling LSTMCell.call().
+
+[1mDimensions must be equal, but are 15 and 12 for '{{node sequential_1/bidirectional_1/forward_lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/bidirectional_1/forward_lstm_1/strided_slice_1, sequential_1/bidirectional_1/forward_lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [32,15], [12,512].[0m
+
+Arguments received by LSTMCell.call():
+  � inputs=tf.Tensor(shape=(32, 15), dtype=float32)
+  � states=('tf.Tensor(shape=(32, 128), dtype=float32)', 'tf.Tensor(shape=(32, 128), dtype=float32)')
+  � training=False
+2025-04-01 11:12:10,786 - INFO - Database initialized or migrated successfully.
+2025-04-01 11:12:10,787 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 11:12:10,867 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-01 11:12:10,868 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-01 11:12:11,913 - WARNING - Feature mismatch: Model expects 12 features, but data has 15 features. Retraining model.
+2025-04-01 11:13:17,486 - INFO - Model saved to stock_predictor_model.keras
+2025-04-01 11:13:17,750 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
+2025-04-01 11:13:18,659 - INFO - Starting next-day prediction...
+2025-04-01 11:13:18,764 - INFO - Next-day prediction completed: $271.45
