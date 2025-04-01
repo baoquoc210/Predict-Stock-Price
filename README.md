@@ -1,17 +1,29 @@
 # Stock Price Prediction with LSTM
 
-This project uses a Long Short-Term Memory (LSTM) neural network to predict stock prices for Tesla (TSLA) based on historical data from January 2020 to March 31, 2025. The data is stored in a static SQLite database, and the model incorporates various technical indicators to enhance prediction accuracy. The project is optimized for both performance and precision, with a focus on reducing lag in predictions.
+This project uses a Long Short-Term Memory (LSTM) neural network to predict stock prices for Tesla (TSLA) from January 2020 to March 31, 2025. The model leverages historical data stored in a SQLite database, enhanced technical indicators, and a simplified LSTM architecture for improved accuracy. The trained model is saved for reuse, and predictions include both next-day and multi-day forecasts.
 
 ## Features
-- **Data Storage**: Historical stock data is stored in a SQLite database (`stock_data_static.db`) for efficient access.
-- **Technical Indicators**: Includes Simple Moving Average (SMA), Exponential Moving Average (EMA), Relative Strength Index (RSI), MACD, Bollinger Bands, daily price change, and a sentiment placeholder.
-- **Enhanced Model**: A two-layer LSTM model with 128 and 64 units, dropout for regularization, a smaller learning rate (0.0005), and a shorter sequence length (30 days) for better precision.
-- **Training**: Uses 50 epochs with early stopping, a batch size of 128, and a train/test split to balance accuracy and training time.
-- **Visualization**: Generates a plot comparing actual vs. predicted prices, with specific dates on the x-axis, saved as `tsla_prediction_plot.png`.
-- **Next-Day Prediction**: Outputs a predicted price for the next trading day.
+- **Data Storage**: Historical data in a SQLite database (`stock_data_static.db`).
+- **Technical Indicators**: SMA, EMA, RSI, MACD, Bollinger Bands, ATR, OBV, daily price change, and a rule-based sentiment (based on price change).
+- **New Features**: Added lagged prices (`Lag_1`, `Lag_2`, `Lag_3`) for short-term dependencies.
+- **Model**: Two-layer LSTM (64, 32 units) with dropout (0.2) and a sequence length of 15.
+- **Training**: 50 epochs, batch size of 64, early stopping, learning rate scheduling, and 3-fold time series cross-validation.
+- **Model Persistence**: Saves the model as `stock_predictor_model.keras` for reuse.
+- **Predictions**: Next-day and 5-day ahead forecasts.
+- **Evaluation**: MAE, RMSE, and MAPE metrics.
+- **Visualization**: Plot of actual vs. predicted prices, saved as `tsla_prediction_plot.png`.
 
 ## Prerequisites
-- **Python**: Version 3.7 to 3.11 (for TensorFlow compatibility).
-- **Dependencies**: Install the required libraries using the following command:
+- **Python**: 3.7 to 3.11 (TensorFlow compatibility).
+- **Dependencies**:
   ```bash
   pip install pandas yfinance numpy tensorflow scikit-learn matplotlib ta
+
+## Full Report
+For a detailed explanation of the methodology, model architecture, evaluation metrics, results, and discussion, please refer to the full report
+[Stock Price Prediction Report: Tesla (TSLA) Using LSTM](https://docs.google.com/document/d/17UIqmWPD65O6nokmnc4Mly8vfG2Ph3pphW3uM_IPq-s/edit?usp=sharing)
+
+## License
+MIT License. See [LICENSE](LICENSE).
+
+**Copyright Notice**: The methodology, code, and findings in this project are the intellectual property of [Your Full Name]. Unauthorized use or reproduction is prohibited.
