@@ -26,4 +26,4 @@ For a detailed explanation of the methodology, model architecture, evaluation me
 ## License
 MIT License. See [LICENSE](LICENSE).
 
-**Copyright Notice**: The methodology, code, and findings in this project are the intellectual property of [Your Full Name]. Unauthorized use or reproduction is prohibited.
+**Copyright Notice**: The methodology, code, and findings in this project are the intellectual property of Quoc Bao Huynh. Unauthorized use or reproduction is prohibited.
