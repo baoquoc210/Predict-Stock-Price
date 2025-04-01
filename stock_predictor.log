@@ -111,3 +111,10 @@ Arguments received by LSTMCell.call():
 2025-04-01 11:55:54,118 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
 2025-04-01 11:55:55,715 - INFO - Starting next-day prediction...
 2025-04-01 11:55:55,890 - INFO - Next-day prediction completed: $271.45
+2025-04-01 12:09:02,916 - INFO - Database initialized or migrated successfully.
+2025-04-01 12:09:02,917 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 12:09:02,977 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-01 12:09:02,977 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-01 12:09:04,584 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
+2025-04-01 12:09:05,393 - INFO - Starting next-day prediction...
+2025-04-01 12:09:05,508 - INFO - Next-day prediction completed: $271.45
