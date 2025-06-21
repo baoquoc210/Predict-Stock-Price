@@ -156,7 +156,6 @@ def summarize_results(mae, next_day_price):
     print(f"\n=== Prediction Summary ===")
     print(f"Mean Absolute Error (MAE): ${mae:.2f}")
     print(f"Predicted Price for Next Day: ${next_day_price:.2f}")
-    print("This model leverages advanced AI techniques and hyperparameter optimization for financial forecasting, suitable for AI-driven investment strategies in Australia.")
 
 # 5. Main Execution
 def main():
