@@ -118,3 +118,147 @@ Arguments received by LSTMCell.call():
 2025-04-01 12:09:04,584 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
 2025-04-01 12:09:05,393 - INFO - Starting next-day prediction...
 2025-04-01 12:09:05,508 - INFO - Next-day prediction completed: $271.45
+2025-04-01 23:23:25,149 - INFO - Database initialized or migrated successfully.
+2025-04-01 23:23:25,152 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-01 23:23:25,262 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-01 23:23:25,263 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-01 23:23:27,369 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
+2025-04-01 23:23:29,697 - INFO - Starting next-day prediction...
+2025-04-01 23:23:29,826 - INFO - Next-day prediction completed: $271.45
+2025-04-02 13:19:43,986 - INFO - Database initialized or migrated successfully.
+2025-04-02 13:19:43,988 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-02 13:19:44,072 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-02 13:19:44,072 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-02 13:19:46,265 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
+2025-04-02 13:19:48,867 - INFO - Starting next-day prediction...
+2025-04-02 13:19:48,964 - INFO - Next-day prediction completed: $271.45
+2025-04-02 13:20:38,707 - INFO - Database initialized or migrated successfully.
+2025-04-02 13:20:38,708 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-02 13:20:38,762 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-02 13:20:38,762 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-02 13:20:40,623 - INFO - Test set MAE: 17.17, RMSE: 24.73, MAPE: 5.81%
+2025-04-02 13:20:41,210 - INFO - Starting next-day prediction...
+2025-04-02 13:20:41,286 - INFO - Next-day prediction completed: $271.45
+2025-04-02 13:43:26,638 - INFO - Database initialized or migrated successfully.
+2025-04-02 13:43:26,639 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-02 13:43:32,707 - ERROR - Program failed: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)
+2025-04-02 13:55:17,545 - INFO - Database initialized or migrated successfully.
+2025-04-02 13:55:17,548 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-02 13:55:24,176 - ERROR - Program failed: 'SP500'
+2025-04-02 23:25:18,287 - INFO - Database initialized or migrated successfully.
+2025-04-02 23:25:18,289 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-02 23:25:23,414 - WARNING - Failed to join S&P 500 data; 'SP500' column missing.
+2025-04-02 23:25:23,673 - WARNING - Failed to join VIX data; 'VIX' column missing.
+2025-04-02 23:25:23,806 - WARNING - 'SP500' column missing; skipping SP500_Change feature.
+2025-04-02 23:25:23,806 - WARNING - 'VIX' column missing; skipping VIX_Change feature.
+2025-04-02 23:25:23,832 - INFO - Prepared 1258 sequences with 10 timesteps and 15 features.
+2025-04-02 23:25:27,697 - WARNING - From C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-04-03 00:04:59,281 - INFO - Model saved to stock_predictor_model.keras
+2025-04-03 00:04:59,549 - INFO - Test set MAE: 24.19, RMSE: 32.93, MAPE: 8.42%
+2025-04-03 00:05:02,126 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-04-03 00:05:02,181 - DEBUG - TBB already found in load path
+2025-04-03 00:05:02,206 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\0tdmzgno.json
+2025-04-03 00:05:02,279 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\wt329e69.json
+2025-04-03 00:05:02,281 - DEBUG - idx 0
+2025-04-03 00:05:02,281 - DEBUG - running CmdStan, num_threads: None
+2025-04-03 00:05:02,281 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=50117', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpcu7dytlv\\0tdmzgno.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpcu7dytlv\\wt329e69.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpcu7dytlv\\prophet_model6r5lxs6p\\prophet_model-20250403000502.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-04-03 00:05:02,281 - INFO - Chain [1] start processing
+2025-04-03 00:05:26,313 - INFO - Chain [1] done processing
+2025-04-03 00:05:26,313 - ERROR - Chain [1] error: terminated by signal 3221225657 
+2025-04-03 00:05:26,315 - WARNING - Optimization terminated abnormally. Falling back to Newton.
+2025-04-03 00:05:26,315 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\op0jy15m.json
+2025-04-03 00:05:26,481 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\wcfugdh_.json
+2025-04-03 00:05:26,484 - DEBUG - idx 0
+2025-04-03 00:05:26,484 - DEBUG - running CmdStan, num_threads: None
+2025-04-03 00:05:26,484 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=88152', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpcu7dytlv\\op0jy15m.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpcu7dytlv\\wcfugdh_.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpcu7dytlv\\prophet_modelo2_335z_\\prophet_model-20250403000526.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-03 00:05:26,484 - INFO - Chain [1] start processing
+2025-04-03 00:05:27,599 - INFO - Chain [1] done processing
+2025-04-03 00:05:27,600 - ERROR - Chain [1] error: terminated by signal 3221225657 
+2025-04-03 00:05:27,601 - ERROR - Program failed: Error during optimization! Command 'C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=88152 data file=C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\op0jy15m.json init=C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\wcfugdh_.json output file=C:\Users\Admin\AppData\Local\Temp\tmpcu7dytlv\prophet_modelo2_335z_\prophet_model-20250403000526.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-04-03 00:15:58,300 - INFO - Database initialized or migrated successfully.
+2025-04-03 00:15:58,301 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-03 00:16:05,131 - WARNING - Failed to join S&P 500 data; 'SP500' column missing.
+2025-04-03 00:16:06,810 - WARNING - Failed to join VIX data; 'VIX' column missing.
+2025-04-03 00:16:06,980 - WARNING - 'SP500' column missing; skipping SP500_Change feature.
+2025-04-03 00:16:06,980 - WARNING - 'VIX' column missing; skipping VIX_Change feature.
+2025-04-03 00:16:07,002 - INFO - Prepared 1258 sequences with 10 timesteps and 15 features.
+2025-04-03 00:16:11,515 - WARNING - From C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-04-03 00:17:02,163 - INFO - Model saved to stock_predictor_model.keras
+2025-04-03 00:17:02,395 - INFO - Test set MAE: 23.40, RMSE: 32.95, MAPE: 8.03%
+2025-04-03 00:17:03,821 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-04-03 00:17:03,878 - DEBUG - TBB already found in load path
+2025-04-03 00:17:03,899 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\0ds36omc.json
+2025-04-03 00:17:03,997 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\sw4gze8j.json
+2025-04-03 00:17:03,998 - DEBUG - idx 0
+2025-04-03 00:17:03,998 - DEBUG - running CmdStan, num_threads: None
+2025-04-03 00:17:03,998 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=98472', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmppcrrqzpm\\0ds36omc.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmppcrrqzpm\\sw4gze8j.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmppcrrqzpm\\prophet_modelitv7875j\\prophet_model-20250403001703.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-04-03 00:17:03,998 - INFO - Chain [1] start processing
+2025-04-03 00:17:16,477 - INFO - Chain [1] done processing
+2025-04-03 00:17:16,477 - ERROR - Chain [1] error: terminated by signal 3221225657 
+2025-04-03 00:17:16,478 - WARNING - Optimization terminated abnormally. Falling back to Newton.
+2025-04-03 00:17:16,479 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\jjvecxpg.json
+2025-04-03 00:17:16,693 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\91_una_q.json
+2025-04-03 00:17:16,696 - DEBUG - idx 0
+2025-04-03 00:17:16,696 - DEBUG - running CmdStan, num_threads: None
+2025-04-03 00:17:16,697 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=17167', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmppcrrqzpm\\jjvecxpg.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmppcrrqzpm\\91_una_q.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmppcrrqzpm\\prophet_modelb4m51amf\\prophet_model-20250403001716.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-03 00:17:16,697 - INFO - Chain [1] start processing
+2025-04-03 00:17:17,406 - INFO - Chain [1] done processing
+2025-04-03 00:17:17,406 - ERROR - Chain [1] error: terminated by signal 3221225657 
+2025-04-03 00:17:17,408 - ERROR - Program failed: Error during optimization! Command 'C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\prophet\stan_model\prophet_model.bin random seed=17167 data file=C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\jjvecxpg.json init=C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\91_una_q.json output file=C:\Users\Admin\AppData\Local\Temp\tmppcrrqzpm\prophet_modelb4m51amf\prophet_model-20250403001716.csv method=optimize algorithm=newton iter=10000' failed: 
+2025-04-03 00:40:07,103 - INFO - Database initialized or migrated successfully.
+2025-04-03 00:40:07,105 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-03 00:40:09,059 - WARNING - 'SP500' column missing; 'SP500_Change' will be set to 0.
+2025-04-03 00:40:09,060 - WARNING - 'VIX' column missing; 'VIX_Change' will be set to 0.
+2025-04-03 00:40:09,084 - INFO - Prepared 1258 sequences with 10 timesteps and 17 features.
+2025-04-03 00:40:11,786 - WARNING - From C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-04-03 00:40:12,825 - ERROR - Program failed: A total of 1 objects could not be loaded. Example error message for object <LSTMCell name=lstm_cell, built=True>:
+
+The shape of the target variable and the shape of the target value in `variable.assign(value)` must match. variable.shape=(17, 256), Received: value.shape=(15, 256). Target variable: <Variable path=sequential/lstm/lstm_cell/kernel, shape=(17, 256), dtype=float32, value=[[-5.56483418e-02  1.03506088e-01 -5.60230762e-02 ... -4.61453199e-03
+   6.41617030e-02 -2.36495510e-02]
+ [ 5.29789031e-02  1.16283774e-01  6.91260099e-02 ... -1.40326425e-01
+   4.46861833e-02  3.31372023e-03]
+ [ 1.97720379e-02 -6.61297143e-03  2.19543129e-02 ... -1.30679354e-01
+  -4.42264751e-02  3.77226919e-02]
+ ...
+ [ 3.89814377e-05 -9.94602144e-02  1.02044135e-01 ...  1.02289140e-01
+   4.60682809e-03  5.45621812e-02]
+ [-1.36413634e-01 -1.08965158e-01 -2.60445923e-02 ... -8.01502094e-02
+   1.12999022e-01 -4.43101749e-02]
+ [-4.77552414e-04 -3.30595821e-02  1.43327266e-01 ...  7.83544481e-02
+   3.63218337e-02  2.17273235e-02]]>
+
+List of objects that could not be loaded:
+[<LSTMCell name=lstm_cell, built=True>]
+2025-04-03 12:46:58,432 - INFO - Database initialized or migrated successfully.
+2025-04-03 12:46:58,434 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-03 12:46:58,536 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-03 12:46:58,537 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-03 12:46:58,867 - WARNING - Failed to load model: Could not locate function 'mape_loss'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'builtins', 'class_name': 'function', 'config': 'mape_loss', 'registered_name': 'function'}. Retraining model.
+2025-04-03 12:48:36,502 - INFO - Model saved to stock_predictor_model.keras
+2025-04-03 12:48:36,774 - INFO - Test set MAE: 21.42, RMSE: 30.98, MAPE: 7.01%
+2025-04-03 12:48:37,818 - INFO - Starting next-day prediction...
+2025-04-03 12:48:37,974 - INFO - Next-day prediction completed: $245.43
+2025-04-09 09:31:04,165 - INFO - Database initialized or migrated successfully.
+2025-04-09 09:31:04,166 - INFO - Data for TSLA already exists in database with required columns.
+2025-04-09 09:31:04,262 - INFO - Prepared 1253 sequences with 15 timesteps and 15 features.
+2025-04-09 09:31:04,262 - INFO - Loading existing model from stock_predictor_model.keras
+2025-04-09 09:31:06,224 - INFO - Test set MAE: 21.42, RMSE: 30.98, MAPE: 7.01%
+2025-04-09 09:31:08,215 - INFO - Starting next-day prediction...
+2025-04-09 09:31:08,382 - INFO - Next-day prediction completed: $245.43
+2025-06-21 12:03:41,508 - INFO - Database initialized for stock data storage.
+2025-06-21 12:03:41,510 - INFO - Data for TSLA already exists.
+2025-06-21 12:03:41,558 - INFO - Prepared 1208 sequences with 60 timesteps.
+2025-06-21 12:03:43,717 - WARNING - From C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-06-21 12:11:18,366 - INFO - Test MAE: 12.80
+2025-06-21 12:16:18,220 - INFO - Database initialized for stock data storage.
+2025-06-21 12:16:18,221 - INFO - Data for TSLA already exists.
+2025-06-21 12:16:18,266 - INFO - Prepared 1208 sequences with 60 timesteps.
+2025-06-21 12:16:20,034 - WARNING - From C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-06-21 12:16:22,378 - INFO - Test MAE: 12.81
