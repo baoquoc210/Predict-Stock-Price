@@ -262,3 +262,13 @@ List of objects that could not be loaded:
 2025-06-21 12:16:20,034 - WARNING - From C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
 
 2025-06-21 12:16:22,378 - INFO - Test MAE: 12.81
+2025-06-21 12:38:51,431 - INFO - Database initialized.
+2025-06-21 12:38:51,431 - INFO - Data for TSLA already exists.
+2025-06-21 12:38:51,473 - INFO - Prepared 1253 sequences with 15 timesteps.
+2025-06-21 12:38:53,235 - WARNING - From c:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-06-21 12:42:02,306 - INFO - Test MAE: 14.89
+2025-06-21 12:42:31,978 - INFO - Database initialized.
+2025-06-21 12:42:31,979 - INFO - Data for TSLA already exists.
+2025-06-21 12:42:31,999 - INFO - Prepared 1253 sequences with 15 timesteps.
+2025-06-21 12:42:33,525 - INFO - Test MAE: 14.89
